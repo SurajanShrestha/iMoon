@@ -1,0 +1,67 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    /*background-image: url(../images/backgrounds/banner.webp);
+    background-position: center center;
+    height: 900px;
+    background-size: 100% 100%;*/
+}
+a{
+    color: rgb(0, 0, 0, 0.5);
+}
+a:hover{
+    color: rgb(0, 0, 0, 0.8);
+}
+.font-large{
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.font-small{
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+.custom-btn{
+    background-color: #e11315;
+    border: 1px solid transparent;
+    padding: 8px 24px;
+    border-radius: 30px;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+.custom-btn:hover{
+    background-color: transparent;
+    border: 1px solid #e11315;
+    color: #e11315;
+}
+.custom-outline-btn{
+    background-color: transparent;
+    border: 1px solid #e11315;
+    padding: 8px 24px;
+    border-radius: 30px;
+    color: #e11315;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+.custom-outline-btn:hover{
+    background-color: #e11315;
+    border: 1px solid transparent;
+    color: white;
+}
+.custom-input{
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 8px 24px;
+    border-radius: 30px;
+    color: gray;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+#join-btn-id{
+    visibility: hidden;
+}
+.custom-input:not(:placeholder-shown)~#join-btn-id{
+    visibility: visible;
+}
