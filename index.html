@@ -21,7 +21,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm px-5">
+        <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top py-1">
             <div class="container">
                 <!-- Brand/logo -->
                 <a class="navbar-brand p-0" href="#">
@@ -56,10 +56,14 @@
           </nav>
     </header>
     <main>
-        <div class="container banner-container py-5">
+        <div class="container banner-container mt-5 py-5">
             <div class="row">
                 <div class="col-lg-6 pt-5">
                     <h1 class="font-large">Video Conference FREE for Everyone</h1>
+                    <div class="mobile-btn-container px-0 py-3">
+                        <button class="custom-outline-btn mr-2">Sign In</button>
+                        <button class="custom-btn">Register</button>
+                    </div>
                     <p class="mt-3 font-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, omnis suscipit? Impedit accusantium odit sed accusamus, sapiente laborum eligendi magnam.</p>
                     <div class="btn-container mt-5">
                         <button class="custom-btn mr-2 mb-3"><i class="fa fa-video-camera" aria-hidden="true"></i> &nbsp;Start a Meeting</button>
@@ -72,21 +76,26 @@
                 </div>
             </div>
         </div>
+        <div class="container banner-container mt-5 py-5">
+            <div class="row">
+                <div class="col-lg-6 pt-5">
+                    <h1 class="font-large">Video Conference FREE for Everyone</h1>
+                    <p class="mt-3 font-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, omnis suscipit? Impedit accusantium odit sed accusamus, sapiente laborum eligendi magnam.</p>
+                    <div class="btn-container mt-5">
+                        <button class="custom-btn mr-2 mb-3"><i class="fa fa-video-camera" aria-hidden="true"></i> &nbsp;Start a Meeting</button>
+                        <input id="join-field-id" class="custom-input" type="text" placeholder="Put Room Id to Join">
+                        <button id="join-btn-id" class="custom-outline-btn"><i class="fa fa-user-plus" aria-hidden="true"></i> Join</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-first">
+                    <img src="./images/illustrations/usability-testing-concept-illustration/3593987.jpg" width="100%" />
+                </div>
+            </div>
+        </div>
     </main>
 
-    <script>
-        /*var joinField=document.getElementById("join-field-id");
-        var joinBtn=document.getElementById("join-btn-id");
-        joinField.addEventListener("change",()=>{
-            if(joinField.value){
-                joinBtn.classList.add("able");
-                joinBtn.classList.remove("disabled");
-            }else{
-                joinBtn.classList.add("disabled");
-                joinBtn.classList.remove("able");
-            }
-        });*/
-    </script>
+    <!--Custom js-->
+    <script src="./js/main.js"></script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

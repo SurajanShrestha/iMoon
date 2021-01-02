@@ -65,3 +65,21 @@ a:hover{
 .custom-input:not(:placeholder-shown)~#join-btn-id{
     visibility: visible;
 }
+.mobile-btn-container{
+    display: none;
+}
+@media screen and (max-width: 600px){
+    .mobile-btn-container{
+        display: block;
+    }
+}
+
+/*Navbar*/
+.nav-shadow{
+    box-shadow: 0px 1px 10px #999;
+}
+@media screen and (max-width: 600px){
+    .nav-btn-container{
+        display: none;
+    }
+}
