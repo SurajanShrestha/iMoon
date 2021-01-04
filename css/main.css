@@ -95,6 +95,10 @@ a:hover{
     -moz-box-shadow: 0px 1px 10px #999;  /* Firefox 3.5 - 3.6 */
     box-shadow: 0px 1px 10px #999;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
+.nav-btn-container{
+    display: flex;
+    align-items: center;
+}
 @media screen and (max-width: 600px){
     .nav-btn-container{
         display: none;
