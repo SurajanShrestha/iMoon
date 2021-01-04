@@ -11,8 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
 
-    <!--Font Awesome-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!--Font Awesome V5-->
+    <script src="https://kit.fontawesome.com/8c9f6ad5f1.js" crossorigin="anonymous"></script>
 
     <!--Custom CSS-->
     <link rel="stylesheet" href="./css/main.css">
@@ -37,7 +37,7 @@
               <div class="collapse navbar-collapse" id="collapsibleNavbar">
                   <ul class="navbar-nav ml-auto">
                       <li class="nav-item px-3">
-                          <a class="nav-link" href="#about">About</a>
+                          <a class="nav-link" href="#download">Download</a>
                       </li>
                       <li class="nav-item px-3">
                           <a class="nav-link" href="#features">Features</a>
@@ -59,14 +59,14 @@
         <div class="container banner-container mt-5 py-5">
             <div class="row">
                 <div class="col-lg-6 pt-5">
-                    <h1 class="font-large">Video Conference FREE for Everyone</h1>
+                    <h1 class="font-xlarge">Video Conference FREE for Everyone</h1>
                     <div class="mobile-btn-container px-0 py-3">
                         <a href="./sign-in.html" class="custom-outline-btn mr-1">Sign In</a>
                         <a href="./register.html" class="custom-btn">Register</a>
                     </div>
                     <p class="mt-3 font-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, omnis suscipit? Impedit accusantium odit sed accusamus, sapiente laborum eligendi magnam.</p>
                     <div class="btn-container mt-5">
-                        <a href="#" class="custom-btn mb-3"><i class="fa fa-video-camera" aria-hidden="true"></i> Start a Meeting</a>
+                        <a href="#" class="custom-btn mb-3"><i class="fas fa-video"></i> Start a Meeting</a>
                         <input id="join-field-id" class="custom-input my-3" type="text" placeholder="Put Room Id to Join">
                         <a href="#" id="join-btn-id" class="custom-outline-btn">Join</a>
                     </div>
@@ -76,19 +76,62 @@
                 </div>
             </div>
         </div>
-        <div class="container banner-container mt-5 py-5">
+        <div class="container app-download-container mt-3 py-5 bg-light" id="download">
             <div class="row">
+                <div class="col-lg-6 text-center pl-0 ml-0">
+                    <img src="./images/screenshots/s2-mockup.png" width="50%" height="auto" />
+                </div>
                 <div class="col-lg-6 pt-5">
-                    <h1 class="font-large">Video Conference FREE for Everyone</h1>
-                    <p class="mt-3 font-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, omnis suscipit? Impedit accusantium odit sed accusamus, sapiente laborum eligendi magnam.</p>
-                    <div class="btn-container mt-5">
-                        <button class="custom-btn mr-2 mb-3"><i class="fa fa-video-camera" aria-hidden="true"></i> &nbsp;Start a Meeting</button>
-                        <input id="join-field-id" class="custom-input" type="text" placeholder="Put Room Id to Join">
-                        <button id="join-btn-id" class="custom-outline-btn"><i class="fa fa-user-plus" aria-hidden="true"></i> Join</button>
+                    <h1 class="font-xlarge">Download our Mobile App now.</h1>
+                    <p class="mt-3 font-small">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, omnis suscipit? Impedit accusantium odit sed accusamus, sapiente laborum eligendi magnam.
+                    </p>
+                    <p class="mt-3 font-xsmall" style="font-weight: bold;">
+                        Available on:
+                    </p>
+                    <div class="btn-container mt-4">
+                        <a href="#" class="custom-outline-btn"><i class="fab fa-google-play"></i> Google Play</a>
+                        <a href="#" class="custom-outline-btn"><i class="fab fa-apple"></i> App Store</a>
                     </div>
                 </div>
-                <div class="col-lg-6 order-lg-first">
-                    <img src="./images/illustrations/usability-testing-concept-illustration/3593987.jpg" width="100%" />
+            </div>
+        </div>
+        <div class="container features-container my-5 py-4" id="features">
+            <div class="row">
+                <div class="col-lg-12 text-center py-4">
+                    <h5 class="font-large">Features</h5>
+                </div>
+                <div class="col-lg-3 col-6 my-3">
+                    <div class="feature-box d-flex flex-column justify-content-center align-items-center">
+                        <div class="feature-icon mb-4">
+                            <i class="fas fa-hand-holding-usd font-large"></i>
+                        </div>
+                        <h5 class="font-small">Free for all</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 my-3">
+                    <div class="feature-box d-flex flex-column justify-content-center align-items-center">
+                        <div class="feature-icon mb-4">
+                            <i class="fas fa-tachometer-alt font-large"></i>
+                        </div>
+                        <h5 class="font-small">Fast as Lightning</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 my-3">
+                    <div class="feature-box d-flex flex-column justify-content-center align-items-center">
+                        <div class="feature-icon mb-4">
+                            <i class="fas fa-thumbs-up font-large"></i>
+                        </div>
+                        <h5 class="font-small">Super Easy to use</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-6 my-3">
+                    <div class="feature-box d-flex flex-column justify-content-center align-items-center">
+                        <div class="feature-icon mb-4">
+                            <i class="fas fa-shield-alt font-large"></i>
+                        </div>
+                        <h5 class="font-small">Safe to use</h5>
+                    </div>
                 </div>
             </div>
         </div>
