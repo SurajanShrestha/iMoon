@@ -40,6 +40,9 @@ a:hover{
 .font-gray{
     color: gray;
 }
+.font-dark-gray{
+    color: rgb(80, 80, 80);
+}
 .font-red{
     color: #e11315;
 }
@@ -119,6 +122,9 @@ a:hover{
     -moz-box-shadow: 0px 20px 50px rgba(153, 153, 153,0.5);  /* Firefox 3.5 - 3.6 */
     box-shadow: 0px 20px 50px rgba(153, 153, 153,0.5);  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
 }
+.features-container .feature-icon i{
+    font-size: 25px;
+}
 .features-container .feature-icon{
     border: 1px solid #bd1114;
     border-radius: 50%;
@@ -130,6 +136,20 @@ a:hover{
     border: 1px solid #e11315;
     background-color: #e11315;
     color: white;
+}
+
+/*Footer*/
+.footer-container{
+    background-color: #eff2f8;
+}
+footer a{
+    color: black;
+}
+footer a:hover{
+    color: #e11315;
+}
+.end-footer-container{
+    background-color: white;
 }
 
 
