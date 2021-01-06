@@ -76,6 +76,20 @@ a:hover{
     border: 1px solid transparent;
     color: white;
 }
+.custom-white-btn{
+    background-color: white;
+    border: 1px solid transparent;
+    padding: 8px 24px;
+    border-radius: 30px;
+    color: #e11315;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: all 0.1s linear;
+}
+.custom-white-btn:hover{
+    padding: 10px 26px;
+    color: #e11315;
+}
 .custom-input{
     background-color: transparent;
     border: 1px solid gray;
@@ -150,6 +164,13 @@ footer a:hover{
 }
 .end-footer-container{
     background-color: white;
+}
+
+/*Get Started Banner*/
+.get-started-banner-container{
+    background-color: #e11315;
+    border: transparent;
+    border-radius: 15px;
 }
 
 
